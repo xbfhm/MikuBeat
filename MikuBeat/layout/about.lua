@@ -177,7 +177,6 @@ return {
             backgroundColor=Colors.colorSurfaceContainer,
             {
               AppCompatTextView,
-              text="二创作者",
               textSize="18sp",
               textColor=Colors.colorOnBackground
             },
@@ -189,7 +188,6 @@ return {
             backgroundColor=Colors.colorSurfaceVariant-0x88000000,
             {
               AppCompatTextView,
-              text="西北风喝吗\n\t-- 本版本由二创作者在原版基础上二次开发\n\t-- 新增网易云歌单、免费音源播放等功能",
               textSize="15sp",
               textColor=Colors.colorOnBackground
             },
@@ -435,7 +433,6 @@ return {
               AppCompatTextView,
               text=[==[
 【关于本版本】
-    本应用《MikuBeat》为二创作品，原作者为 Pafonshaw，二创作者为「西北风喝吗」。
     本版本在原版基础上二次开发，新增：网易云歌单导入、免费音源在线播放、网易云官方接口解析等功能。
     二创部分与原作者无关，原作者不对本版本的任何内容负责。
 
