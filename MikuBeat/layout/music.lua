@@ -8,6 +8,7 @@ local TabLayout = luajava.bindClass "com.google.android.material.tabs.TabLayout"
 local RelativeLayout = luajava.bindClass "android.widget.RelativeLayout"
 local Space = luajava.bindClass "android.widget.Space"
 local AppCompatImageView = luajava.bindClass "androidx.appcompat.widget.AppCompatImageView"
+local MaterialButton = luajava.bindClass "com.google.android.material.button.MaterialButton"
 
 return {
   LinearLayoutCompat,
@@ -86,7 +87,7 @@ return {
           layout_height=-1,
           orientation=1,
           {
-            com.google.android.material.button.MaterialButton,
+            MaterialButton,
             id="playlistAddBtn",
             text="➕ 添加网易云歌单",
             layout_width=-1,
